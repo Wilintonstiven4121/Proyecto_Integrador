@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sgc</title>
+    <link rel="stylesheet" href="forms/form-style.css">
+</head>
+
+<body>
+    <h1>Cursos</h1>
+    <a href="#modal-curso" class="add-bnt">Crear</a>
+    <div id="modal-matricula" class="modal">
+        <div class="container-forms">
+            <form class="formulario">
+                <h2 class="title-forms">Crear Matricula</h2>
+                <div class="form-group input">
+                    <label for="estudiante">Estudiante</label>
+                    <input type="text" id="estudiante" name="estudiante" placeholder="Estudiante">
+
+                    <label for="curso">Curso</label>
+                    <input type="text" id="curso" name="curso" placeholder="Curso">
+
+                    <label for="fecha">Fecha</label>
+                    <input type="date" id="fecha" name="fecha">
+
+                    <label for="estado">Estado</label>
+                    <select id="estado" name="estado">
+                        <option value="activa">Activa</option>
+                        <option value="cancelada">Cancelada</option>
+                        <option value="completada">Completada</option>
+                    </select>
+                </div>
+
+                <div class="btns">
+                    <button type="submit" class="add-bnt">Crear</button>
+                    <a href="#" class="cancelar-bnt">Cancelar</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

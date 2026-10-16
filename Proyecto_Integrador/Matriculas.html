@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Matriculas</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="forms/form-style.css">
 </head>
 
 <body>
@@ -41,7 +42,7 @@
       <section class="section-title">
         <h1>Matriculas</h1>
         <h2>Registros matriculas, estudiantes, cursos</h2>
-        <button>Nueva Matricula</button>
+        <a href="#modal-matricula" class="btn-nuevo">Nueva Matricula</a>
       </section>
       <input class="Buscador-Matricula" type="text" placeholder="Buscar estudiantes o cursos...">
       <select class="filtro-estado">
@@ -101,6 +102,35 @@
         <p>Diseñado por: Wilinton Stiven Garcia Giraldo</p>
       </footer>
     </main>
+  </div>
+  <div id="modal-matricula" class="modal">
+    <div class="container-forms">
+      <form class="formulario">
+        <h2 class="title-forms">Crear Matricula</h2>
+        <div class="form-group input">
+          <label for="estudiante">Estudiante</label>
+          <input type="text" id="estudiante" name="estudiante" placeholder="Estudiante">
+
+          <label for="curso">Curso</label>
+          <input type="text" id="curso" name="curso" placeholder="Curso">
+
+          <label for="fecha">Fecha</label>
+          <input type="date" id="fecha" name="fecha">
+
+          <label for="estado">Estado</label>
+          <select id="estado" name="estado">
+            <option value="activa">Activa</option>
+            <option value="cancelada">Cancelada</option>
+            <option value="completada">Completada</option>
+          </select>
+        </div>
+
+        <div class="btns">
+          <button type="submit" class="add-bnt">Crear</button>
+          <a href="#" class="cancelar-bnt">Cancelar</a>
+        </div>
+      </form>
+    </div>
   </div>
 </body>
 

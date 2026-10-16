@@ -89,11 +89,6 @@ body {
   color: red;
 }
 
-.section-title button{
-  margin-left: 92%;
-  background-color: rgb(116, 116, 253);
-}
-
 .filtro-estado {
   padding: 10px 14px;
   border: 1px solid #d1d5db;
@@ -136,12 +131,6 @@ body {
   grid-row: 2;
 }
 
-.section-title button {
-  grid-column: 2;
-  grid-row: 1 / span 2;
-  justify-self: end;
-}
-
 .main {
   display: flex;
   flex-direction: column;
@@ -158,4 +147,21 @@ body {
   gap: 30px;
   font-size: 12px;
   color: #718096;
+}
+
+.btn-nuevo {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  justify-self: end;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(116, 116, 253);
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  text-align: center;
+  padding: 1px 6px;
+  border: 1px solid #767676;
+  border-radius: 3px;
+  cursor: pointer;
 }
