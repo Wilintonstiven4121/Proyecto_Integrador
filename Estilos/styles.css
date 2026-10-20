@@ -67,6 +67,22 @@ body {
   list-style: none;
 }
 
+  .btn-inicio:hover {
+  background-color: #1d4ed8;
+}
+
+.btn-cursos:hover{
+  background-color: #1d4ed8;
+}
+
+.btn-estudiantes:hover{
+  background-color: #1d4ed8;
+}
+
+.btn-matriculas:hover{
+  background-color: #1d4ed8;
+}
+
 .table {
   width: 100%;
   margin: 20px auto;
@@ -120,6 +136,10 @@ body {
   align-items: center;
   column-gap: 16px;
 }
+  .section-title:first-letter {
+  color: #fbbf24;
+  font-size: 1.3em;
+}
 
 .section-title h1 {
   grid-column: 1;
@@ -164,4 +184,7 @@ body {
   border: 1px solid #767676;
   border-radius: 3px;
   cursor: pointer;
+}
+  .btn-nuevo:hover {
+  background-color: #1d4ed8;
 }

@@ -5,8 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Matriculas</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="forms/form-style.css">
+  <link rel="stylesheet" href="Estilos/styles.css" />
+  <link rel="stylesheet" href="forms/form-style.css" />
 </head>
 
 <body>
@@ -18,13 +18,17 @@
 
       <nav class="Dashboard-nav">
         <ul class="Dashboard-menu">
-          <li><a href="Dashboard.html">Inicio</a></li>
+          <li><a class="btn-inicio" href="Dashboard.html">Inicio</a></li>
 
-          <li><a href="Cursos.html">Cursos</a></li>
+          <li><a class="btn-cursos" href="Cursos.html">Cursos</a></li>
 
-          <li><a href="Estudiantes.html">Estudiantes</a></li>
+          <li>
+            <a class="btn-estudiantes" href="Estudiantes.html">Estudiantes</a>
+          </li>
 
-          <li><a href="Matriculas.html">Matriculas</a></li>
+          <li>
+            <a class="btn-matriculas" href="Matriculas.html">Matriculas</a>
+          </li>
         </ul>
       </nav>
 
@@ -44,7 +48,7 @@
         <h2>Registros matriculas, estudiantes, cursos</h2>
         <a href="#modal-matricula" class="btn-nuevo">Nueva Matricula</a>
       </section>
-      <input class="Buscador-Matricula" type="text" placeholder="Buscar estudiantes o cursos...">
+      <input class="Buscador-Matricula" type="text" placeholder="Buscar estudiantes o cursos..." />
       <select class="filtro-estado">
         <option>Todos los estados</option>
         <option>Activa</option>
@@ -109,13 +113,13 @@
         <h2 class="title-forms">Crear Matricula</h2>
         <div class="form-group input">
           <label for="estudiante">Estudiante</label>
-          <input type="text" id="estudiante" name="estudiante" placeholder="Estudiante">
+          <input type="text" id="estudiante" name="estudiante" placeholder="Estudiante" />
 
           <label for="curso">Curso</label>
-          <input type="text" id="curso" name="curso" placeholder="Curso">
+          <input type="text" id="curso" name="curso" placeholder="Curso" />
 
           <label for="fecha">Fecha</label>
-          <input type="date" id="fecha" name="fecha">
+          <input type="date" id="fecha" name="fecha" />
 
           <label for="estado">Estado</label>
           <select id="estado" name="estado">

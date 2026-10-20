@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sgc</title>
+    <link rel="stylesheet" href="forms/form-style.css">
+</head>
+
+<body>
+    <h1>Cursos</h1>
+    <a href="#modal-curso" class="add-bnt">Crear</a>
+    <div id="modal-curso" class="modal">
+        <div class="container-forms">
+            <form class="formulario">
+                <h2 class="title-forms">Crear Cursos</h2>
+                <div class="form-group input">
+                    <label for="codigo">Codigo</label>
+                    <input type="text" id="codigo" name="codigo" placeholder="Codigo">
+
+                    <label for="curso">Cursos</label>
+                    <input type="text" id="curso" name="curso" placeholder="Curso">
+
+                    <label for="capacidad">Capacidad</label>
+                    <input type="number" id="capacidad" name="capacidad" placeholder="Capacidad">
+                </div>
+
+                <div class="btns">
+                    <button type="submit" class="add-bnt">Crear</button>
+                    <a href="#" class="cancelar-bnt">Cancelar</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
